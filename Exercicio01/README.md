@@ -1,4 +1,5 @@
-## ORIENTAÇÔES
+##### ORIENTAÇÔES
+> Siga as orientações abaixo para resolver a tarefa
 
 ###### Arquivo HTML
  - Faça a importação do arquivo styles.css na tag `<head>` e do arquivo main.js na tag `<body>`.
