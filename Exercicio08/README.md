@@ -3,7 +3,7 @@
 
 ###### `index.html`
  - Faça a importação do arquivo styles.css na tag `<head>` e do arquivo main.js na tag `<body>`.
- - Crie uma tag `<h1>` com o texto `Formatar Data`
+ - Crie uma tag `<h1>` com o texto `Brincando com Array`
 
 ###### `styles.css`
  - Defina alguns estilos para a página
