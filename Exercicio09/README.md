@@ -20,4 +20,6 @@
 
 
 > Veja como utilizar essas funções
-[Conhecendo map(), filter() e reduce()](https://[link](https://medium.com/@programadriano/javascript-conhecendo-map-filter-e-reduce-ce072d8f0ec5))
+
+
+[Conhecendo map(), filter() e reduce()](https://medium.com/@programadriano/javascript-conhecendo-map-filter-e-reduce-ce072d8f0ec5)
