@@ -6,7 +6,7 @@
  - Crie uma tag `<h1>` com o texto `Olá Mundo!`
 
 ###### `styles.css`
- - Defina uma cor para o texto para da tag `h1`
+ - Defina uma cor para o texto da tag `h1`
  - Defina uma cor para o fundo na tag `body`
  
 ###### `main.js`
