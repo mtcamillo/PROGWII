@@ -12,7 +12,7 @@
  
 ###### `main.js`
 
-1. Crie uma função que receba um número
+1. Crie uma função que receba um número (entre 5 e 15)
 2. A função deve imprimir na tela uma contágem regressiva, que inicia no número recebido (entre 5 e 15) e finaliza quando chegar a zero
 3. Utilize a funão `setInterval` para dar a sensação de contágem regressiva a cada 1 segundo. Quando chegar a zero, chame a função `clearInterval`
 

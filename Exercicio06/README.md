@@ -10,7 +10,7 @@
  
 ###### `main.js`
 
-1. As empresa em que você trabalha pediu para você fazer um programa para calcular o aumento de salário  para seus colaboradores. Faça um programa que recebe o nome e o salário de um colaborador e calcule reajuste segundo o seguinte critério, baseado no salário atual:
+1. A empresa em que você trabalha pediu para você fazer um programa para calcular o aumento de salário  para seus colaboradores. Faça um programa que recebe o nome e o salário de um colaborador e calcule reajuste segundo o seguinte critério, baseado no salário atual:
  - Salários até R$ 980,00: aumento de 20%
  - Salários entre R$ 980,00 e R$ 1300,00: aumento de 15%
  - Salários entre R$ 1300,00 e R$ 1800,00: aumento de 10%
