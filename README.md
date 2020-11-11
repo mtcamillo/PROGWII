@@ -5,7 +5,7 @@ Lista de Exercícios Propostos para as Atividades de Ensino Remotas da Disciplin
 - Crie uma conta no GitHub
 - Faça `Fork` desse projeto para a sua conta
 - Resolva os Exercícios Propostos
-- O prazo para entrega será divulgado pelo professor
+- Prazo para entrega: `05/12/2020`
 
 ```javascript
 console.log('Bons Estudos!')
