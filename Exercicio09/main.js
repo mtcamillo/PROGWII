@@ -16,6 +16,26 @@ addEventListener('load', function() {
     });
     animais_tag.innerHTML += "<hr />"
     
-    // Continue a tarefa aqui...
+    animais.push({nome: "Clever", idade: 17, tipo: "cachorro"})
+    animais.forEach(animal => {
+        animais_tag.innerHTML += `<p>${animal.nome} - ${animal.idade} - ${animal.tipo}<p>`
+    });
+    animais_tag.innerHTML += "<hr />"
+
+    let cachorros = animais.filter((animal) => {
+      return animal.tipo === 'cachorro';
+    })
+    cachorros.forEach(animal => {
+        animais_tag.innerHTML += `<p>${animal.nome} - ${animal.idade} - ${animal.tipo}<p>`
+    });
+    animais_tag.innerHTML += "<hr />"
+    animais.forEach(animal => {
+        animais_tag.innerHTML += `<p>${animal.nome} - ${animal.idade *= 7} - ${animal.tipo}<p>`
+    });
+    animais_tag.innerHTML += "<hr />"
+    var calcIdade = animais.reduce((sum, animal) => {
+      return sum + animal.idade;
+    }, 0);
+    animais_tag.innerHTML += `<p>${calcIdade}<p>`
     
 })

@@ -27,7 +27,39 @@ const questoes = [
       { id: 4, texto: "const idade = 18;", correta: false },
     ],
   },
-  // Crie pelo menos mais 3 questões sobre javascript. Cada questão precisa ter 1 alternativa correta
+  {
+    id: 3,
+    descricao: "Em Javascript, quais são as propriedades do objeto STRING?",
+    nivel: "Fácil",
+    alternativas: [
+      { id: 1, texto: 'new, lenght e type.', correta: false },
+      { id: 2, texto: "lenght, constructor e prototype.", correta: false },
+      { id: 3, texto: 'type, protoptype e constructor.";', correta: false },
+      { id: 4, texto: "document, new e prototype.", correta: true },
+    ],
+  },
+  {
+    id: 4,
+    descricao: "Qual operador do Javascript possui a finalidade de realizar o teste de igualdade?",
+    nivel: "Fácil",
+    alternativas: [
+      { id: 1, texto: '=', correta: false },
+      { id: 2, texto: "==", correta: true },
+      { id: 3, texto: '-', correta: false },
+      { id: 4, texto: "%", correta: false },
+    ],
+  },
+  {
+    id: 5,
+    descricao: "Dentre as opções, assinale a incorreta.",
+    nivel: "Fácil",
+    alternativas: [
+      { id: 1, texto: 'O Javascript é usado principalmente para tornar websites mais interativos, animados e responsivos.', correta: false },
+      { id: 2, texto: "É possível manter a tag <script> tanto dentro da tag <head> quanto da tag <body>", correta: true },
+      { id: 3, texto: 'No Javascript é necessário especificar o nome da linguagem com a tag <script> usando o atributo type.', correta: false },
+      { id: 4, texto: "A principal vantagem de se manter o código Javascript internamente é que ele se torna de fácil manipulação.", correta: false },
+    ],
+  },
 ];
 
 const proximaQuestao = function () {
@@ -36,6 +68,18 @@ const proximaQuestao = function () {
   imprimirQuestao(questao);
   imprimirAlternativas(embaralharArray(questao.alternativas));
 };
+
+function embaralharArray(meuArray) {
+  for (
+    var j, x, i = meuArray.length;
+    i;
+    j = Math.floor(Math.random() * i),
+      x = meuArray[--i],
+      meuArray[i] = meuArray[j],
+      meuArray[j] = x
+  );
+  return meuArray;
+}
 
 function imprimirQuestao(questao) {
   var input = criarInputHidden(questao);

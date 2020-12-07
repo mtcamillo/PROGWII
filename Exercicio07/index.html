@@ -7,17 +7,26 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./public/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./public/favicon-16x16.png">
     <link rel="manifest" href="./public/manifest.json">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
     <title>Exercício</title>
 </head>
 <body>
-    <div class="formulario">
-        <!-- Adicione os Campos do Formulário -->
+    <div align="center">
+        <h1>Formatar Data</h1>
+        <div class="formulario">
+            <input type="text" name="data" id="data" placeholder="Exemplo: 22/04/2010">
+            <br>
+            <br>
+            <button onclick="calcular()">Mostrar Data</button>
+        </div>
+        
+        <div style="margin-top: 5vh" class="resultados" id="resultados">
+            <!-- Adicione o Resultado -->
+        </div>
     </div>
     
-    <div class="resultados">
-        <!-- Adicione o Resultado -->
-    </div>
 
-    <script src="XXXXXXX" type="text/javascript"></script>
+    <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
